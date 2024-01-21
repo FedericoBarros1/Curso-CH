@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+#banner {
+  text-align: center;
+  margin-top: -20px;
+  background-color: #72ee8d;
+}
+#banner img {
+  width: auto;
+  height: 800px;
+  max-width: auto;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+#banner p {
+  color: #ec1111;
+  font-size: 30px;
+  background-color: #72ee8d;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Estilos para pantallas con ancho máximo de 500px-Mobile- */
+@media only screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+/* Cambia el color del texto en el menú de navegación (navbar) */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/*hover para h1 en hoja index*/
+h1 {
+  color: black;
+  text-decoration: underline;
+}
+
+h1:hover {
+  color: red;
+  font-family: cursive;
+}
+
+/*carousel html index*/
+#carouselExample {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#carouselExample .carousel-inner img {
+  width: 25%; /* Hace que las imágenes ocupen el ancho completo del contenedor */
+  height: auto;
+}
+
+p {
+  color: black;
+}
+
+.titulo-negro {
+  color: black;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #459cf3;
+  justify-content: space-evenly;
+  color: white;
+}
+header img {
+  width: 50px;
+}
+
+main {
+  background-color: #72ee8d;
+  margin-top: -20px; /* arregla espacio entre nav y main */
+}
+main .imagen1,
+main .imagen2,
+main .imagen3 {
+  width: 300px;
+}
+main .color-rojo {
+  color: red;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f7f2f2;
+  color: black;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#review {
+  background-color: #72ee8d;
+}
+#review img {
+  width: auto;
+  height: 800px;
+  max-width: auto;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+#review p {
+  color: #080000;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #72ee8d;
+}
+
+input {
+  border-color: #f7f2f2;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border: purple 5px dotted;
+}
+
+/*# sourceMappingURL=estilos.css.map */

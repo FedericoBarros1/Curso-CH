@@ -1,0 +1,22 @@
+$verde: #72ee8d; 
+
+#banner {
+    text-align: center;
+    margin-top: -20px;
+    background-color: $verde;
+
+    img {
+        width: auto;
+        height: 800px;
+        max-width: auto;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    p {
+        color: #ec1111;
+        font-size: 30px;
+        background-color: $verde;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
