@@ -19,6 +19,7 @@ nav {
     a {
         color: white;
         text-decoration: none;
+        padding-left: 15px;
     }
 }
 
@@ -43,7 +44,7 @@ h1:hover{
     
     .carousel-inner {
         img {
-            width: 25%; /* Hace que las imágenes ocupen el ancho completo del contenedor */
+            width: 30%; /* Hace que las imágenes ocupen el ancho completo del contenedor */
             height: auto;
         }
     }
@@ -51,11 +52,13 @@ h1:hover{
 
 p {
     color: black;
+    padding-left: 15px;
 }
 
 .titulo-negro {
     color: black;
     text-decoration: underline;
+    padding-left: 15px;
 }
 
 
@@ -125,7 +128,7 @@ footer {
 }
 
 #banner img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
 }
 
@@ -138,5 +141,4 @@ input{
 input:focus{
     border: purple 5px dotted;
 }
- 
 
