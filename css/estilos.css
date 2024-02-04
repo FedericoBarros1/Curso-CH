@@ -6,11 +6,10 @@
   background-color: #72ee8d;
 }
 #banner img {
-  width: auto;
+  width: 1000px;
   height: 800px;
   max-width: auto;
   margin-bottom: 20px;
-  margin-top: -20px;
 }
 #banner p {
   color: #ec1111;
@@ -21,10 +20,14 @@
 
 /* Estilos para pantallas con ancho máximo de 500px-Mobile- */
 @media only screen and (max-width: 500px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  .productos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para centrar verticalmente en dispositivos móviles */
+  }
+  .card {
+    margin-bottom: 10px; /* Añade espacio entre las tarjetas en dispositivos móviles */
   }
 }
 /* Cambia el color del texto en el menú de navegación (navbar) */
@@ -53,8 +56,18 @@ h1:hover {
   margin-top: 20px;
 }
 #carouselExample .carousel-inner img {
-  width: 30%; /* Hace que las imágenes ocupen el ancho completo del contenedor */
+  width: 100%; /* Ajusta el tamaño al 100% del contenedor en dispositivos móviles */
   height: auto;
+  display: block; /* imagen como un bloque */
+  margin: 0 auto; /* Auto-margin para centrar la imagen horizontalmente */
+}
+@media (min-width: 768px) {
+  #carouselExample {
+    /* Ajustar segun necesario */
+  }
+  #carouselExample .carousel-inner img {
+    width: 30%; /* Restaura el tamaño original del 30% en dispositivos de escritorio */
+  }
 }
 
 p {
@@ -79,7 +92,6 @@ header img {
 
 main {
   background-color: #72ee8d;
-  margin-top: -20px; /* arregla espacio entre nav y main */
 }
 main .imagen1,
 main .imagen2,
@@ -107,11 +119,10 @@ footer img {
   background-color: #72ee8d;
 }
 #review img {
-  width: auto;
+  width: 1080px;
   height: 400px;
   max-width: auto;
   margin-bottom: 20px;
-  margin-top: -20px;
 }
 #review p {
   color: #080000;
@@ -126,7 +137,7 @@ footer img {
 }
 
 #banner img {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -137,6 +148,13 @@ input {
 
 input:focus {
   border: purple 5px dotted;
+}
+
+/* tamaño form para ingresar review*/
+.devolucion {
+  width: 100%;
+  max-width: 500px;
+  /* Otros estilos que desees agregar */
 }
 
 /*# sourceMappingURL=estilos.css.map */
